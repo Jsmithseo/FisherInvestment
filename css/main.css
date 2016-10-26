@@ -3,10 +3,9 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*body{
-  background-color:#044437;
-
-}*/
+body{
+padding-bottom:0px;
+}
 nav.navbar.navbar.navbar-fixed-top{
 	background-color:#044437;
 	position: absolute;
@@ -15,8 +14,9 @@ nav.navbar.navbar.navbar-fixed-top{
 .headerCopy{
 	text-align: center;
 	color:#fefefe;
-	font-family:Helvetica;
-	font-weight:100;
+	font-family:Times New Roman;
+	font-weight: 200;
+	letter-spacing: 8px;
 }
 
 h1.jumbotronCopy{
@@ -88,22 +88,25 @@ color:#044437;
 }
 
 .mainBodyTitle{
-  text-align:center;
-  font-size:23px;
-  font-weight:bold;
-  padding-top:15px;
-  color:#fff;
+font-family: HelveticaNeue-Bold;
+font-size: 23px;
+color: #FFFFFF;
+letter-spacing: -0.56px;
+line-height: 22px;
 }
 
 .mainBodyCopy{
-  font-size:16px;
+  font-size:18px;
   font-weight:100;
   padding-top:20px;
   padding-bottom: 20px;
   color:#fff;
+  margin-right: 10%;
+ margin-left: 10%;
+ letter-spacing:0px;
 }
 .contactUs{
-  font-size:14px;
+  font-size:18px;
   font-weight:bold;
   font-family:helvetica;
   padding-top:50px;
@@ -119,7 +122,86 @@ color:#044437;
 }
 .contactCopy{
 font-size:16px;
-font-weight:bold;
+font-weight:100;
 font-family:helvetica;
 color:#fff;
+padding-bottom:50px;
 }
+
+.topContent{
+background-color:#044437;
+    margin-top:
+
+}
+
+
+.thumbnail{
+ 	padding: 3px;
+
+}
+
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+.aboutTitle{
+	font-size:24px;
+	font-family:helvetica;
+	font-weight:bold;
+	color:#005547;
+	padding-top:10px;
+}
+
+
+.aboutContent{
+	font-size:16px;
+	font-family:helvetica;
+	font-weight:100;
+	color:#005547;
+	padding-top:10px;
+	margin-right:10%;
+	margin-left:10%;
+}
+
+.recogition{
+font-family: HelveticaNeue-Bold;
+font-size: 23px;
+color: #044437;
+letter-spacing: -0.56px;
+line-height: 24px;
+padding-top:30px;
+padding-bottom:5px;
+}
+.recogitionContent{
+font-family: HelveticaNeue-light;
+font-size: 16px;
+color: #044437;
+letter-spacing: -0.56px;
+line-height: 24px;
+
+
+}
+
+footer{
+	background-color:#333333;
+}
+
+.col-md-12{
+
+	
+}
+
+
+
